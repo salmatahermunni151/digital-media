@@ -36,6 +36,19 @@
         font-size: 15px;
         margin-bottom: 40px;
     }
+    /* about section code start here */
+    .about-parent{
+        display: block;
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0 20px;
+        text-align: center;
+    }
+    .about-img img{
+        width: 100%;
+        margin-bottom: 50px;
+    }
 }
 @media screen and (min-width:577px) and (max-width:768px) {
     nav{
@@ -71,6 +84,27 @@
     .banner-text p{
         font-size: 12px;
         margin-bottom: 30px;
+    }
+    /* about section code start here */
+    .about-parent{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0 20px;
+    }
+    .about-img img{
+        width: 300px;
+    }
+    .about-text h4{
+        font-size: 16px;
+    }
+    .about-text h2{
+        font-size: 28px;
+        margin: 7px 0 20px 0;
+    }
+    .about-text p{
+        font-size: 1px;
     }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
@@ -111,6 +145,27 @@
         font-size: 15px;
         margin-bottom: 40px;
     }
+    /* about section code start here */
+    .about-parent{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0 20px;
+    }
+    .about-img img{
+        width: 350px;
+    }
+    .about-text h4{
+        font-size: 16px;
+    }
+    .about-text h2{
+        font-size: 28px;
+        margin: 7px 0 20px 0;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
     nav{
@@ -140,5 +195,23 @@
     }
     .banner-img img{
         width: 650px;
+    }
+    /* about section code start here */
+    .about-parent{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        gap: 30px;
+        margin: 0 20px;
+    }
+    .about-img img{
+        width: 500px;
+    }
+    .about-text h2{
+        font-size: 32px;
+        margin: 7px 0 20px 0;
+    }
+    .about-text p{
+        font-size: 17px;
     }
 }
