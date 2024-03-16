@@ -45,9 +45,45 @@
         margin: 0 20px;
         text-align: center;
     }
+    .about-text h2{
+        font-size: 28px;
+    }
     .about-img img{
         width: 100%;
         margin-bottom: 50px;
+    }
+    /* service section code start here */
+    .service-title h2{
+        margin: 0 10px;
+        font-size: 32px;
+    }
+    .service-parent{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    gap: 15px;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+    }
+    /* Analysis section code start here */
+    .analysis-parent{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-items: center;
+        gap: 60px;
+        margin: 0 20px;
+        text-align: center;
+    }
+    .analysis-ul ul{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        gap: 15px;
+    }
+    .analysis-img img{
+        width: 100%;
     }
 }
 @media screen and (min-width:577px) and (max-width:768px) {
@@ -105,6 +141,44 @@
     }
     .about-text p{
         font-size: 1px;
+    }
+    /* service section code start here */
+    .service-title h2{
+        margin: 0 10px;
+        font-size: 32px;
+    }
+    .service-parent{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        gap: 35px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+     /* Analysis section code start here */
+     .analysis-parent{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 40px;
+        margin: 0 20px;
+    }
+    .analysis-text p{
+        font-size: 12px;
+        margin: 18px 0;
+    }
+    .analysis-ul ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 8px;
+    }
+    .analysis-ul li{
+        font-size: 13px;
+    }
+    .analysis-img img{
+        width: 250px;
     }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
@@ -166,6 +240,44 @@
     .about-text p{
         font-size: 16px;
     }
+    /* service section code start here */
+    .service-title h2{
+        margin: 0 10px;
+        font-size: 32px;
+    }
+    .service-parent{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        justify-items: center;
+        gap: 35px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    /* Analysis section code start here */
+    .analysis-parent{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 40px;
+        margin: 0 20px;
+    }
+    .analysis-text p{
+        font-size: 15px;
+        margin: 18px 0;
+    }
+    .analysis-ul ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 8px;
+    }
+    .analysis-ul li{
+        font-size: 13px;
+    }
+    .analysis-img img{
+        width: 340px;
+    }
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
     nav{
@@ -213,5 +325,43 @@
     }
     .about-text p{
         font-size: 17px;
+    }
+    /* service section code start here */
+    .service-title h2{
+        margin: 0 10px;
+        font-size: 32px;
+    }
+    .service-parent{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        justify-items: center;
+        gap: 5px;
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+     /* Analysis section code start here */
+     .analysis-parent{
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        gap: 40px;
+        margin: 0 20px;
+    }
+    .analysis-text p{
+        font-size: 17px;
+        margin: 20px 0;
+    }
+    .analysis-ul ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        align-items: center;
+        gap: 8px;
+    }
+    .analysis-ul li{
+        font-size: 16px;
+    }
+    .analysis-img img{
+        width: 450px;
     }
 }
