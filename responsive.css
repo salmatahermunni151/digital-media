@@ -1,0 +1,144 @@
+@media screen and (min-width:300px) and (max-width:576px) {
+    nav{
+        margin: 20px 20px;
+    }
+    nav ul{
+        display: none;
+    } 
+    .free-button{
+        padding: 5px 15px;
+        font-size: 13px;
+    }
+    /* banner code start here */
+    .banner-parents{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin: 40px 20px;
+        gap: 20px;
+        text-align: center;
+    }
+    .banner-img img{
+        width: 100%;
+    }
+    .banner-text{
+        margin-top: 20px;
+    }
+    .banner-text h3{
+        font-size: 17px;
+    }
+    .banner-text h1{
+        margin: 10px 0 25px 0;
+        font-size: 35px;
+    }
+    .banner-text p{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width:577px) and (max-width:768px) {
+    nav{
+        margin: 20px 20px;
+    }
+    nav ul li{
+        display: none;
+    }
+    .block-items{
+        display: block;
+    }
+    .block-items-1{
+        display: none;
+    }
+     /* banner code start here */
+     .banner-parents{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .banner-img img{
+        width: 400px;
+    }
+    .banner-text h3{
+        font-size: 17px;
+    }
+    .banner-text h1{
+        margin: 10px 0 17px 0;
+        font-size: 25px;
+    }
+    .banner-text p{
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:992px) {
+    nav{
+        margin: 20px 20px;
+    }
+    nav ul li{
+        display: none;
+    }
+    .block-items{
+        display: block;
+    }
+    .block-items-1{
+        display: block;
+    }
+     /* banner code start here */
+     .banner-parents{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .banner-img img{
+        width: 480px;
+    }
+    .banner-text{
+        margin-top: 40px;
+    }
+    .banner-text h3{
+        font-size: 17px;
+    }
+    .banner-text h1{
+        margin: 10px 0 25px 0;
+        font-size: 35px;
+    }
+    .banner-text p{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+}
+@media screen and (min-width:993px) and (max-width:1200px) {
+    nav{
+        margin: 20px 20px;
+    }
+    nav ul li{
+        display: flex;
+    }
+     /* banner code start here */
+     .banner-parents{
+        display: flex;
+        justify-items: center;
+        align-items: center;
+        margin: 40px 20px;
+        gap: 20px;
+    }
+    .banner-text h3{
+        font-size: 22px;
+    }
+    .banner-text h1{
+        margin: 10px 0 25px 0;
+        font-size: 35px;
+    }
+    .banner-text p{
+        font-size: 15px;
+        margin-bottom: 40px;
+    }
+    .banner-img img{
+        width: 650px;
+    }
+}
