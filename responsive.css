@@ -85,6 +85,50 @@
     .analysis-img img{
         width: 100%;
     }
+    /* quote section code start here */
+    .quote-items{
+        padding: 50px 0;
+    }
+    .quote-items input{
+        width: 90%;
+    }
+    .Quote-button{
+        margin-top: 20px;
+    }
+    /* contact section code start here */
+    .contact-title-parent{
+        gap: 0;
+    }
+    .contact-title-img img{
+       display: none;
+    }
+    /* contact section items code start here */
+    .contact-parent{
+        display: block;
+        gap: 50px;
+        width: 90%;
+    }
+    .contact-maps iframe{
+        width: 100%;
+    }
+    .contact-text-items{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 40px;
+        margin: 20px 0 30px 0;
+        text-align: center;
+    }
+    /* contact input and input */
+    .contact-input-parent{
+        display:block;
+    }
+    .contact-input-items input{
+        width: 90%;
+    }
+    .textarea-parent textarea{
+        width: 100%;
+        margin-bottom: 20px;
+    } 
 }
 @media screen and (min-width:577px) and (max-width:768px) {
     nav{
@@ -180,6 +224,47 @@
     .analysis-img img{
         width: 250px;
     }
+    /* quote section code start here */
+    .quote-items{
+        padding: 80px 0;
+    }
+    .quote-items input{
+        width: 60%;
+    }
+     /* contact section code start here */
+    .contact-title-parent{
+        gap: 0;
+    }
+    .contact-title-img img{
+       width: 100%;
+    }
+    /* contact section items code start here */
+    .contact-parent{
+        display: block;
+        gap: 50px;
+        width: 90%;
+    }
+    .contact-maps iframe{
+        width: 100%;
+    }
+    .contact-text-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 40px;
+        margin: 20px 0 30px 0;
+        text-align: center;
+    }
+    /* contact input and input */
+    .contact-input-parent{
+        display:block;
+    }
+    .contact-input-items input{
+        width: 90%;
+    }
+    .textarea-parent textarea{
+        width: 100%;
+        margin-bottom: 20px;
+    } 
 }
 @media screen and (min-width:769px) and (max-width:992px) {
     nav{
@@ -278,6 +363,51 @@
     .analysis-img img{
         width: 340px;
     }
+     /* quote section code start here */
+     .quote-items{
+        padding: 80px 0;
+    }
+    .quote-items input{
+        width: 60%;
+    }
+     /* contact section code start here */
+     .contact-title-parent{
+        gap: 20px;
+    }
+    .contact-title-img img{
+       width: 100%;
+    }
+    /* contact section items code start here */
+    .contact-parent{
+        display: flex;
+        gap: 20px;
+        width: 100%;
+        padding-top: 30px;
+    }
+    .contact-maps iframe{
+        width: 100%;
+    }
+    .contact-text-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin: 20px 0 30px 0;
+        text-align: center;
+    }
+    .contact-text h2{
+        font-size: 16px;
+    }
+    /* contact input and input */
+    .contact-input-parent{
+        display:flex;
+    }
+    .contact-input-items input{
+        width: 90%;
+    }
+    .textarea-parent textarea{
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
     nav{
@@ -363,5 +493,48 @@
     }
     .analysis-img img{
         width: 450px;
+    }
+    .quote-items{
+        padding: 80px 0;
+    }
+    .quote-items input{
+        width: 60%;
+    }
+    /* contact section code start here */
+    .contact-title-parent{
+        gap: 20px;
+    }
+    .contact-title-img img{
+       width: 100%;
+    }
+    /* contact section items code start here */
+    .contact-parent{
+        display: flex;
+        gap: 40px;
+        padding-top: 30px;
+    }
+    .contact-maps iframe{
+        width: 100%;
+    }
+    .contact-text-items{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 20px;
+        margin: 20px 0 30px 0;
+        text-align: center;
+    }
+    .contact-text h2{
+        font-size: 16px;
+    }
+    /* contact input and input */
+    .contact-input-parent{
+        display:flex;
+    }
+    .contact-input-items input{
+        width: 90%;
+    }
+    .textarea-parent textarea{
+        width: 100%;
+        margin-bottom: 20px;
     }
 }
