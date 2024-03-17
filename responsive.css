@@ -95,14 +95,14 @@
     .Quote-button{
         margin-top: 20px;
     }
-    /* contact section code start here */
+    /* contact section responsive code start here */
     .contact-title-parent{
         gap: 0;
     }
     .contact-title-img img{
        display: none;
     }
-    /* contact section items code start here */
+    /* contact section items responsive code start here */
     .contact-parent{
         display: block;
         gap: 50px;
@@ -129,6 +129,28 @@
         width: 100%;
         margin-bottom: 20px;
     } 
+    /* footer section responsive code start here  */
+    .footer-parent{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 0 20px;
+        padding: 20px 0;
+        color: #fff;
+        text-align: center;
+        gap: 30px;
+    }
+    /* footer first items start here */
+    .footer-items-1{
+        display: none;
+    }
+    /* footer second items start here */
+.footer-items-2{
+   display: none;
+}
+    /* footer fourth items start here  */
+    .input-parent input{
+        width: 100%;
+    }
 }
 @media screen and (min-width:577px) and (max-width:768px) {
     nav{
@@ -165,7 +187,7 @@
         font-size: 12px;
         margin-bottom: 30px;
     }
-    /* about section code start here */
+    /* about section responsive code start here */
     .about-parent{
         display: flex;
         justify-items: center;
@@ -186,7 +208,7 @@
     .about-text p{
         font-size: 1px;
     }
-    /* service section code start here */
+    /* service section responsive code start here */
     .service-title h2{
         margin: 0 10px;
         font-size: 32px;
@@ -200,7 +222,7 @@
         margin: 0 auto;
         text-align: center;
     }
-     /* Analysis section code start here */
+     /* Analysis section responsive code start here */
      .analysis-parent{
         display: flex;
         align-items: center;
@@ -224,21 +246,21 @@
     .analysis-img img{
         width: 250px;
     }
-    /* quote section code start here */
+    /* quote section responsive code start here */
     .quote-items{
         padding: 80px 0;
     }
     .quote-items input{
         width: 60%;
     }
-     /* contact section code start here */
+     /* contact section responsive code start here */
     .contact-title-parent{
         gap: 0;
     }
     .contact-title-img img{
        width: 100%;
     }
-    /* contact section items code start here */
+    /* contact section items responsive code start here */
     .contact-parent{
         display: block;
         gap: 50px;
@@ -265,6 +287,27 @@
         width: 100%;
         margin-bottom: 20px;
     } 
+    /* footer section responsive code start here  */
+    .footer-parent{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 20px;
+        padding: 20px 0;
+        color: #fff;
+        gap: 40px;
+    }
+    /* footer first items start here */
+    .footer-items-1{
+        width: 100%;
+    }
+    /* footer second items start here */
+.footer-items-2{
+   display: none;
+}
+    /* footer fourth items start here  */
+    .input-parent input{
+        width: 100%;
+    }
 }
 @media screen and (min-width:769px) and (max-width:992px) {
     nav{
@@ -279,7 +322,7 @@
     .block-items-1{
         display: block;
     }
-     /* banner code start here */
+     /* banner responsive code start here */
      .banner-parents{
         display: flex;
         justify-items: center;
@@ -304,7 +347,7 @@
         font-size: 15px;
         margin-bottom: 40px;
     }
-    /* about section code start here */
+    /* about section responsive code start here */
     .about-parent{
         display: flex;
         justify-items: center;
@@ -325,7 +368,7 @@
     .about-text p{
         font-size: 16px;
     }
-    /* service section code start here */
+    /* service section responsive code start here */
     .service-title h2{
         margin: 0 10px;
         font-size: 32px;
@@ -339,7 +382,7 @@
         margin: 0 auto;
         text-align: center;
     }
-    /* Analysis section code start here */
+    /* Analysis section responsive code start here */
     .analysis-parent{
         display: flex;
         align-items: center;
@@ -363,21 +406,21 @@
     .analysis-img img{
         width: 340px;
     }
-     /* quote section code start here */
+     /* quote section responsive code start here */
      .quote-items{
         padding: 80px 0;
     }
     .quote-items input{
         width: 60%;
     }
-     /* contact section code start here */
+     /* contact section responsive code start here */
      .contact-title-parent{
         gap: 20px;
     }
     .contact-title-img img{
        width: 100%;
     }
-    /* contact section items code start here */
+    /* contact section items responsive code start here */
     .contact-parent{
         display: flex;
         gap: 20px;
@@ -408,6 +451,22 @@
         width: 100%;
         margin-bottom: 20px;
     }
+    /* footer section responsive code start here  */
+    .footer-parent{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin: 0 20px;
+        padding: 20px 0;
+        color: #fff;
+    }
+    /* footer first items start here */
+    .footer-items-1{
+        width: 100%;
+    }
+    /* footer fourth items start here  */
+    .input-parent input{
+        width: 100%;
+    }
 }
 @media screen and (min-width:993px) and (max-width:1200px) {
     nav{
@@ -416,7 +475,7 @@
     nav ul li{
         display: flex;
     }
-     /* banner code start here */
+     /* banner responsive code start here */
      .banner-parents{
         display: flex;
         justify-items: center;
@@ -438,7 +497,7 @@
     .banner-img img{
         width: 650px;
     }
-    /* about section code start here */
+    /* about section responsive code start here */
     .about-parent{
         display: flex;
         justify-items: center;
@@ -456,7 +515,7 @@
     .about-text p{
         font-size: 17px;
     }
-    /* service section code start here */
+    /* service section responsive code start here */
     .service-title h2{
         margin: 0 10px;
         font-size: 32px;
@@ -470,7 +529,7 @@
         margin: 0 auto;
         text-align: center;
     }
-     /* Analysis section code start here */
+     /* Analysis section responsive code start here */
      .analysis-parent{
         display: flex;
         align-items: center;
@@ -500,14 +559,14 @@
     .quote-items input{
         width: 60%;
     }
-    /* contact section code start here */
+    /* contact section responsive code start here */
     .contact-title-parent{
         gap: 20px;
     }
     .contact-title-img img{
        width: 100%;
     }
-    /* contact section items code start here */
+    /* contact section responsive items code start here */
     .contact-parent{
         display: flex;
         gap: 40px;
@@ -536,5 +595,21 @@
     .textarea-parent textarea{
         width: 100%;
         margin-bottom: 20px;
+    }
+    /* footer section responsive code start here  */
+    .footer-parent{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        margin: 0 20px;
+        padding: 20px 0;
+        color: #fff;
+    }
+    /* footer first items start here */
+    .footer-items-1{
+        width: 100%;
+    }
+    /* footer fourth items start here  */
+    .input-parent input{
+        width: 100%;
     }
 }
